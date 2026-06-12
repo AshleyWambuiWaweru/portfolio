@@ -49,3 +49,33 @@ body{font-family:Poppins,sans-serif;color:#334155}
     font-weight:bold;
     font-size:1.1rem;
 }
+
+.about-container{
+    display:grid;
+    grid-template-columns:350px 1fr;
+    gap:60px;
+    margin-top:50px;
+}
+
+.about-stats{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.stat-card{
+    background:#eaf6f7;
+    padding:25px;
+    border-left:4px solid #0f766e;
+    border-radius:12px;
+}
+
+.stat-card h3{
+    font-size:3rem;
+    color:#0f766e;
+}
+
+.about-content{
+    font-size:1.1rem;
+    line-height:2;
+}
