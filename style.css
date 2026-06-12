@@ -79,3 +79,52 @@ body{font-family:Poppins,sans-serif;color:#334155}
     font-size:1.1rem;
     line-height:2;
 }
+.experience{
+    padding:120px 10%;
+}
+
+.timeline{
+    position:relative;
+    max-width:1000px;
+    margin-top:60px;
+}
+
+.timeline::before{
+    content:'';
+    position:absolute;
+    left:14px;
+    top:0;
+    width:2px;
+    height:100%;
+    background:#0f766e;
+}
+
+.timeline-item{
+    position:relative;
+    padding-left:60px;
+    margin-bottom:60px;
+}
+
+.timeline-dot{
+    position:absolute;
+    left:6px;
+    top:6px;
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    background:white;
+    border:3px solid #0f766e;
+}
+
+.timeline-card{
+    background:white;
+    border:1px solid #e2e8f0;
+    border-radius:16px;
+    padding:30px;
+    transition:.3s;
+}
+
+.timeline-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 40px rgba(15,118,110,.12);
+}
