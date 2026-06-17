@@ -128,3 +128,53 @@ body{font-family:Poppins,sans-serif;color:#334155}
     transform:translateY(-5px);
     box-shadow:0 20px 40px rgba(15,118,110,.12);
 }
+
+.hero{
+    min-height:100vh;
+    background:linear-gradient(
+        135deg,
+        #0f766e,
+        #0891b2
+    );
+
+    display:flex;
+    align-items:center;
+
+    color:white;
+}
+
+.hero-container{
+
+    width:100%;
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 400px;
+
+    gap:60px;
+
+    align-items:center;
+}
+
+.hero-image{
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+
+    width:350px;
+    height:350px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid rgba(255,255,255,.15);
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.25);
+}
